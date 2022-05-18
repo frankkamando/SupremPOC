@@ -1,0 +1,6 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DoorControl\bin\Release\DoorControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DoorControl\bin\Release\DoorControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DoorControl\obj\x86\Release\DoorControl.csprojAssemblyReference.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DoorControl\obj\x86\Release\DoorControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DoorControl\obj\x86\Release\DoorControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DoorControl\obj\x86\Release\DoorControl.pdb

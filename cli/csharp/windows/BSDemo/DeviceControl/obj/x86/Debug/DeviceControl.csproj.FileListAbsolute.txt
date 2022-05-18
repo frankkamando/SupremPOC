@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\DeviceControl\obj\x86\Debug\DeviceControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\DeviceControl\obj\x86\Debug\DeviceControl.csproj.CoreCompileInputs.cache

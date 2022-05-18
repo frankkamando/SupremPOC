@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Debug\GlobalAPBZoneByDoorOpenControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Debug\GlobalAPBZoneByDoorOpenControl.csproj.CoreCompileInputs.cache

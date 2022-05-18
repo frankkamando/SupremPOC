@@ -1,0 +1,16 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\UserControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\UserControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\System.Data.SQLite.dll
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.csproj.CopyComplete
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.pdb
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\UserControl.exe
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\UserControl.pdb
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\System.Data.SQLite.dll
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.csproj.CoreCompileInputs.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.csproj.CopyComplete
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.exe
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x64\Debug\UserControl.pdb
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\x64_Debug\Delta.Wsq.dll

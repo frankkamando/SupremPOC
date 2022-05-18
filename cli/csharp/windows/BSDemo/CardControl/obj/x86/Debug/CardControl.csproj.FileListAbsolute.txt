@@ -1,0 +1,1 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\CardControl\obj\x86\Debug\CardControl.csproj.CoreCompileInputs.cache

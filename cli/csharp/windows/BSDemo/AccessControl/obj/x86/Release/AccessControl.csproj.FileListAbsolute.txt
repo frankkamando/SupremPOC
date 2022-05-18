@@ -1,0 +1,6 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\AccessControl\bin\Release\AccessControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\AccessControl\bin\Release\AccessControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\AccessControl\obj\x86\Release\AccessControl.csprojAssemblyReference.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\AccessControl\obj\x86\Release\AccessControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\AccessControl\obj\x86\Release\AccessControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\AccessControl\obj\x86\Release\AccessControl.pdb

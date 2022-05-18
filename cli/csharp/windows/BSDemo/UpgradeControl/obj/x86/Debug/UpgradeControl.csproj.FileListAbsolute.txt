@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UpgradeControl\obj\x86\Debug\UpgradeControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UpgradeControl\obj\x86\Debug\UpgradeControl.csproj.CoreCompileInputs.cache

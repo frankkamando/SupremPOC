@@ -1,0 +1,1 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\ZoneControl\obj\x86\Debug\ZoneControl.csproj.CoreCompileInputs.cache

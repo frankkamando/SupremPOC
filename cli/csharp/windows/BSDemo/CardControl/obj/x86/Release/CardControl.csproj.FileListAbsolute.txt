@@ -1,0 +1,6 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\CardControl\bin\Release\CardControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\CardControl\bin\Release\CardControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\CardControl\obj\x86\Release\CardControl.csprojAssemblyReference.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\CardControl\obj\x86\Release\CardControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\CardControl\obj\x86\Release\CardControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\CardControl\obj\x86\Release\CardControl.pdb

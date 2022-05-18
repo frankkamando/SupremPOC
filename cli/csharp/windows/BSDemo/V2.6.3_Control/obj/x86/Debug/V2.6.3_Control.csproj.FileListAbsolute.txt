@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Debug\V2.6.3_Control.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Debug\V2.6.3_Control.csproj.CoreCompileInputs.cache

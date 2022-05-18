@@ -1,0 +1,6 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UpgradeControl\bin\Release\UpgradeControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UpgradeControl\bin\Release\UpgradeControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UpgradeControl\obj\x86\Release\UpgradeControl.csprojAssemblyReference.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UpgradeControl\obj\x86\Release\UpgradeControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UpgradeControl\obj\x86\Release\UpgradeControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\UpgradeControl\obj\x86\Release\UpgradeControl.pdb

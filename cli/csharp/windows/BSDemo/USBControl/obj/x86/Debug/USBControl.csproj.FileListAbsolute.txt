@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\USBControl\obj\x86\Debug\USBControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\USBControl\obj\x86\Debug\USBControl.csproj.CoreCompileInputs.cache

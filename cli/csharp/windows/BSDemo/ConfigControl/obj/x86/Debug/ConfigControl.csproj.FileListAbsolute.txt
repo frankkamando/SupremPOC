@@ -1,0 +1,1 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\ConfigControl\obj\x86\Debug\ConfigControl.csproj.CoreCompileInputs.cache

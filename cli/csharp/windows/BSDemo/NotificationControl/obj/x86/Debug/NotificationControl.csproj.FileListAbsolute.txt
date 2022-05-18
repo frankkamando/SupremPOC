@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\NotificationControl\obj\x86\Debug\NotificationControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\NotificationControl\obj\x86\Debug\NotificationControl.csproj.CoreCompileInputs.cache

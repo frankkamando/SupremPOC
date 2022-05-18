@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\ServerMatchingControl\obj\x86\Debug\ServerMatchingControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\ServerMatchingControl\obj\x86\Debug\ServerMatchingControl.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DeviceZoneControl\bin\Release\DeviceZoneControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DeviceZoneControl\bin\Release\DeviceZoneControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DeviceZoneControl\obj\x86\Release\DeviceZoneControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DeviceZoneControl\obj\x86\Release\DeviceZoneControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\DeviceZoneControl\obj\x86\Release\DeviceZoneControl.pdb

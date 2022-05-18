@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\WiegandControl\obj\x86\Debug\WiegandControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\WiegandControl\obj\x86\Debug\WiegandControl.csproj.CoreCompileInputs.cache

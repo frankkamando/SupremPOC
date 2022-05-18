@@ -1,0 +1,8 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\bin\Release\GlobalAPBZoneByDoorOpenControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\bin\Release\GlobalAPBZoneByDoorOpenControl.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\bin\Release\System.Data.SQLite.dll
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Release\GlobalAPBZoneByDoorOpenControl.csprojAssemblyReference.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Release\GlobalAPBZoneByDoorOpenControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Release\GlobalAPBZoneByDoorOpenControl.csproj.CopyComplete
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Release\GlobalAPBZoneByDoorOpenControl.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\GlobalAPBZoneByDoorOpenControl\obj\x86\Release\GlobalAPBZoneByDoorOpenControl.pdb

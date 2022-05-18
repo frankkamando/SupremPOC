@@ -1,0 +1,9 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\Debug\UserControl.exe
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\Debug\UserControl.pdb
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\Debug\System.Data.SQLite.dll
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x86\Debug\UserControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x86\Debug\UserControl.csproj.CoreCompileInputs.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x86\Debug\UserControl.csproj.CopyComplete
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x86\Debug\UserControl.exe
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\obj\x86\Debug\UserControl.pdb
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\UserControl\bin\Debug\UserControl.exe.config

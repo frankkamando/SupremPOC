@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\SlaveControl\obj\x86\Debug\SlaveControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\SlaveControl\obj\x86\Debug\SlaveControl.csproj.CoreCompileInputs.cache

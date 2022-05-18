@@ -1,0 +1,1913 @@
+[INFO]  [SocketManager]   [2022/05/11 19:42:33] [TID:0000003a] [SocketManager] TCPMultiplexingTask() Got select sslserverSocket
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:33] [TID:0000003a] [SocketManager] TCPMultiplexingTask() connected ssl client address : 192.168.15.166
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:33] [TID:0000003a] [SocketManager] TCPMultiplexingTask() connected ssl client address : 192.168.15.166
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:0000003a] [EventDispatcher] AddPrimitiveEvent() [Code:2(SOCKET_CODE), What:8, Arg1:1888, Arg2:a60fa8c0, Arg3:51213]
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[05d50448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:00000004] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d545a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:00000004] [EventBase] PeekEvent() get successfully from the event queue[05d545a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:00000004] [eventMain] eventCode [2], what[8]
+[INFO]  [DeviceManager]   [2022/05/11 19:42:33] [TID:00000004] [SFDeviceMgr] HandleEvent() got event code : 2 what : 8
+
+[INFO]  [DeviceManager]   [2022/05/11 19:42:33] [TID:00000004] [SFDeviceMgr] HandleEvent() Accept Device : 1888,a60fa8c0,51213
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] Construct this[05d7a020] refCount(0)
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] Created SocketHandler this[05d7a020] m_IPv6Mode[0]
+
+[INFO]  [Device]          [2022/05/11 19:42:33] [TID:00000004] [SFDevice] Construct this[05d7a020] deviceID[0] refCount(11)
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:00000004] [EventDispatcher] RegisterEventHandler() start eventHandler[05d7a020]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:33] [TID:00000004] [EventDispatcher] RegisterEventHandler() out handled[1]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] GetSSLEnvironment deviceID[0] sslMethodMask[BS2_SSL_METHOD_MASK_TLS1_2]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL deviceID[0] sslMethodMask[16]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke PreferMethod device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke PreferMethod device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL() sslPreferMethod[0x1C]
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL() supportedSslMethodMask[0x10] sslMethodMask[0x10]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [OPENSSL] VERSION: OpenSSL 1.1.1i  8 Dec 2020
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [InitSSL] Set as TLSv1_2_server_method
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL() set sslMethodMask[0x10]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetServerCaFilePath device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetServerCaFilePath device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL() ServerCaFilePath[../../../../../resource/server/ssl_server.crt]
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetServerPrivateKeyFilePath device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetServerPrivateKeyFilePath device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL() ServerPrivateKeyFilePath[../../../../../resource/server/ssl_server.pem]
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetPassword device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetPassword device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetRootCaFilePath device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] invoke GetRootCaFilePath device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:42:33] [TID:00000004] [SocketHandlerBase] InitSSL() RootCaFilePath[../../../../../resource/server/ssl_server_root.crt]
+[INFO]  [EventDispatcher] [2022/05/11 19:42:34] [TID:00000004] [EventDispatcher] RegisterEventHandler() start eventHandler[05d78730]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:34] [TID:00000004] [EventDispatcher] RegisterEventHandler() out handled[1]
+
+[INFO]  [Device]          [2022/05/11 19:42:34] [TID:00000004] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x9001
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:34] [TID:00000004] [SocketHandlerBase] DispatchPacket packetID(0)
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:34] [TID:00000004] [SocketManager] SendTCP() sendPacket[TCP get system information] device : 0 command : 0x9001 sequence : 28163
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:34] [TID:00000004] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:34] [TID:00000004] [WriteImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:34] [TID:00000004] Write (Offset:98040104, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:42:34] [TID:00000004] [SocketManager] Out SendTCP() sendPacket[TCP get system information] device : 0 command : 0x9001 sequence : 28163 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[05d50448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:42:35] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1888]
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] Read (ssl:05ec5e98, buffer:05d701d8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] Read (ssl:05ec5e98, buffer:05d701d9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] Read (ssl:05ec5e98, buffer:05d701da, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] Read (ssl:05ec5e98, buffer:05d701db, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] Read (ssl:05ec5e98, buffer:05d781bc, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:0, lastReceivedPacketTime[1652287355]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [EventDispatcher] AddPrimitiveEvent() [Code:7(CONNECTION_CODE), What:-1, Arg1:0, Arg2:00000000, Arg3:0]
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [EventDispatcher] AddEvent() start eventCode[7] receiver[05d7a020]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000010] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d545a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [EventBase] PeekEvent() get successfully from the event queue[05d545a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [eventMain] eventCode [7], what[-1]
+[INFO]  [Device]          [2022/05/11 19:42:35] [TID:00000005] [SFDevice] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000005] [SocketHandlerBase] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000005] [SocketHandlerBase] PeekPacket() Got packet from device[0] command[0x9001] option[256] sequence[28163] payloadSize[0] expectedPayloadSize[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000005] [SocketHandlerBase] ParsePacket() thread id : 5 rawPacket[0646f86c] id[0] command[0x9001] sequence[28163] index[0] more[0] option[256] param1[0] param2[0].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [EventDispatcher] UnregisterEventHandler() start eventHandler[05d78730]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [EventDispatcher] UnregisterEventHandler() out
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000005] [SocketHandlerBase] HandleETCheckModeAsync deviceID[0] m_isETMode: 0
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [EventDispatcher] RegisterEventHandler() start eventHandler[05d818e0]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000005] [EventDispatcher] RegisterEventHandler() out handled[1]
+
+[INFO]  [Device]          [2022/05/11 19:42:35] [TID:00000005] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x10
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000005] [SocketHandlerBase] DispatchPacket packetID(0)
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000005] [SocketManager] SendTCP() sendPacket[TCP handshake packet] device : 0 command : 0x10 sequence : 28164
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000005] [SocketManager] packetCount/Index: 1/0 packetLen : 116
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000005] [WriteImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000005] Write (Offset:98049224, Remain:116, onceWritten:116)
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000005] [SocketManager] Out SendTCP() sendPacket[TCP handshake packet] device : 0 command : 0x10 sequence : 28164 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[05d50448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [EventBase] PeekEvent() get successfully from the event queue[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:42:35] [TID:00000011] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [SocketManager] HandleSelectedEvent() socket[1888]
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] Read (ssl:05ec5e98, buffer:05d70348, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] Read (ssl:05ec5e98, buffer:05d70349, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] Read (ssl:05ec5e98, buffer:05d7034a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] Read (ssl:05ec5e98, buffer:05d7034b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] Read (ssl:05ec5e98, buffer:05d782dc, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] Read (ssl:05ec5e98, buffer:05d77a14, ReadCount:0, bufferSize:80) result:80
+[INFO]  [SocketManager]   [2022/05/11 19:42:35] [TID:00000011] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000011] [SocketHandlerBase] UpdateLastPacketTimestamp Id:0, lastReceivedPacketTime[1652287355]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [EventDispatcher] AddPrimitiveEvent() [Code:7(CONNECTION_CODE), What:-1, Arg1:0, Arg2:00000000, Arg3:0]
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [EventDispatcher] AddEvent() start eventCode[7] receiver[05d7a020]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000011] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d545a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventBase] PeekEvent() get successfully from the event queue[05d545a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [eventMain] eventCode [7], what[-1]
+[INFO]  [Device]          [2022/05/11 19:42:35] [TID:00000006] [SFDevice] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000006] [SocketHandlerBase] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000006] [SocketHandlerBase] PeekPacket() Got packet from device[0] command[0x10] option[0] sequence[28164] payloadSize[68] expectedPayloadSize[80]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:35] [TID:00000006] [SocketHandlerBase] ParsePacket() thread id : 6 rawPacket[065af90c] id[0] command[0x10] sequence[28164] index[0] more[0] option[0] param1[543617681] param2[29].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventDispatcher] UnregisterEventHandler() start eventHandler[05d818e0]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventDispatcher] UnregisterEventHandler() out
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventDispatcher] AddEvent() start eventCode[5] receiver[05d50448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:00000006] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000000d] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54640:notificationEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000000d] [EventBase] PeekEvent() get successfully from the event queue[05d54640:notificationEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:35] [TID:0000000d] [eventMain] eventCode [5], what[1]
+[INFO]  [DeviceManager]   [2022/05/11 19:42:35] [TID:0000000d] [SFDeviceMgr] HandleEvent() got event code : 5 what : 1
+
+[INFO]  [DeviceManager]   [2022/05/11 19:42:35] [TID:0000000d] [SFDeviceMgr] InvokeDeviceAccepted() invoke ptrDeviceAccepted device[543617681] before
+[INFO]  [NotifyManager]   [2022/05/11 19:42:35] [TID:0000000d] [Post-209] Message post signaled
+[INFO]  [NotifyManager]   [2022/05/11 19:42:35] [TID:0000000d] [Post-212] Message post out handled
+[INFO]  [DeviceManager]   [2022/05/11 19:42:35] [TID:0000000d] [SFDeviceMgr] InvokeDeviceAccepted() invoke ptrDeviceAccepted device[543617681] after
+[INFO]  [NotifyManager]   [2022/05/11 19:42:35] [TID:00000002] [Peek-134] Peek() Peek successfully from the empty queue
+[INFO]  [NotifyManager]   [2022/05/11 19:42:35] [TID:00000002] [Peek-125] Peek() get successfully from the notify queue
+[API]  [API]             [2022/05/11 19:42:36] [TID:00000001] BS2_SearchDevices [IN]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:36] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:36] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(0)
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:36] [TID:00000001] [SocketManager] SendUDP() sendPacket[UDP discover packet] device : 0 command : 0x1000
+
+[INFO]  [SocketManager]   [2022/05/11 19:42:36] [TID:00000001] [SocketManager] Out SendUDP() sendPacket[UDP discover packet] device : 0 command : 0x1000 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:36] [TID:00000039] [EventDispatcher] AddEvent() start eventCode[3] receiver[05d709b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:36] [TID:00000039] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:36] [TID:00000039] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:36] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:36] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:36] [TID:00000010] [eventMain] eventCode [3], what[-1]
+[INFO]  [SocketHandler]   [2022/05/11 19:42:36] [TID:00000010] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:36] [TID:00000010] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x1000] option[0] sequence[26848] payloadSize[32] expectedPayloadSize[32]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:42:36] [TID:00000010] [SocketHandlerBase] ParsePacket() thread id : 16 rawPacket[0724f96c] id[543617681] command[0x1000] sequence[26848] index[0] more[0] option[0] param1[0] param2[0].
+
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_SearchDevices [OUT] return 1
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_SetDeviceSearchingTimeout [IN]
+
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_SetDeviceSearchingTimeout [OUT] return 1
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_GetDevices [IN]
+
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_GetDevices [OUT] return 1
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_GetDeviceInfo [IN] (543617681)
+[INFO]  [SocketHandler]   [2022/05/11 19:42:41] [TID:00000001] [SocketHandlerBase] GetDeviceInfo() Id:543617681, Type:29, SSLSupport:0, RootCertExist:0
+
+[API]  [API]             [2022/05/11 19:42:41] [TID:00000001] BS2_GetDeviceInfo [OUT] (543617681) return 1
+[INFO]  [EventDispatcher] [2022/05/11 19:42:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[05d59668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[05d54550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:42:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[05d59668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[05d54550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:42:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[API]  [API]             [2022/05/11 19:42:55] [TID:00000001] BS2_ReleaseObject [IN]
+
+[API]  [API]             [2022/05/11 19:42:55] [TID:00000001] BS2_ReleaseObject [OUT] return
+[API]  [API]             [2022/05/11 19:42:55] [TID:00000001] BS2_ConnectDevice [IN] (543617681)
+[INFO]  [DeviceManager]   [2022/05/11 19:42:55] [TID:00000001] [SFDeviceMgr] InvokeDeviceConnected() invoke ptrDeviceConnected device[543617681] before
+[INFO]  [NotifyManager]   [2022/05/11 19:42:55] [TID:00000001] [Post-209] Message post signaled
+[INFO]  [NotifyManager]   [2022/05/11 19:42:55] [TID:00000001] [Post-212] Message post out handled
+[INFO]  [NotifyManager]   [2022/05/11 19:42:55] [TID:00000002] [Peek-134] Peek() Peek successfully from the empty queue
+[INFO]  [DeviceManager]   [2022/05/11 19:42:55] [TID:00000001] [SFDeviceMgr] InvokeDeviceConnected() invoke ptrDeviceConnected device[543617681] after
+[INFO]  [NotifyManager]   [2022/05/11 19:42:55] [TID:00000002] [Peek-125] Peek() get successfully from the notify queue
+[API]  [API]             [2022/05/11 19:42:55] [TID:00000001] BS2_ConnectDevice [OUT] (543617681) return 1
+[API]  [API]             [2022/05/11 19:42:55] [TID:00000001] BS2_GetDeviceInfoEx [IN] (543617681)
+[INFO]  [SocketHandler]   [2022/05/11 19:42:55] [TID:00000001] [SocketHandlerBase] GetDeviceInfo() Id:543617681, Type:29, SSLSupport:0, RootCertExist:0
+
+[API]  [API]             [2022/05/11 19:42:55] [TID:00000001] BS2_GetDeviceInfoEx [OUT] (543617681) return 1
+[INFO]  [EventDispatcher] [2022/05/11 19:43:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[05d59668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[05d54550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:43:05] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[05d50448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:05] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:05] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:05] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:05] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[05d54678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:43:05] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:43:05] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1888]
+
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] Read (ssl:05ec5e98, buffer:05d70338, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] Read (ssl:05ec5e98, buffer:05d70339, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] Read (ssl:05ec5e98, buffer:05d7033a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] Read (ssl:05ec5e98, buffer:05d7033b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [ReadImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] Read (ssl:05ec5e98, buffer:05d781ec, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] KeepAlive ReadImpl Socket:1888, SockBase:1888, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:43:05] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287385]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:43:05] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [WriteImplSsl] SocketHandlerBase:05d7a020, SSLLock:05d7a3a4
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] Write (Offset:98754144, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:43:05] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:43:05] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[API]  [API]             [2022/05/11 19:48:44] [TID:00000001] BS2_SearchDevices [IN]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(0)
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:44] [TID:00000001] [SocketManager] SendUDP() sendPacket[UDP discover packet] device : 0 command : 0x1000
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:44] [TID:00000001] [SocketManager] Out SendUDP() sendPacket[UDP discover packet] device : 0 command : 0x1000 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:44] [TID:00000039] [EventDispatcher] AddEvent() start eventCode[3] receiver[065fa858]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:44] [TID:00000039] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:44] [TID:00000039] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:44] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:44] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:44] [TID:00000010] [eventMain] eventCode [3], what[-1]
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000010] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000010] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x1000] option[0] sequence[30438] payloadSize[32] expectedPayloadSize[32]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000010] [SocketHandlerBase] ParsePacket() thread id : 16 rawPacket[07abf94c] id[543617681] command[0x1000] sequence[30438] index[0] more[0] option[0] param1[0] param2[0].
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000010] [SocketHandlerBase] Construct this[06602eb0] refCount(0)
+[INFO]  [SocketHandler]   [2022/05/11 19:48:44] [TID:00000010] [SocketHandlerBase] Created SocketHandler this[06602eb0] m_IPv6Mode[0]
+
+[INFO]  [Device]          [2022/05/11 19:48:44] [TID:00000010] [SFDevice] Construct this[06602eb0] deviceID[0] refCount(11)
+[INFO]  [DeviceManager]   [2022/05/11 19:48:44] [TID:00000010] [SFDeviceMgr] InvokeDeviceFound() invoke ptrDeviceFound device[543617681] before
+[INFO]  [NotifyManager]   [2022/05/11 19:48:44] [TID:00000010] [Post-209] Message post signaled
+[INFO]  [NotifyManager]   [2022/05/11 19:48:44] [TID:00000010] [Post-212] Message post out handled
+[INFO]  [DeviceManager]   [2022/05/11 19:48:44] [TID:00000010] [SFDeviceMgr] InvokeDeviceFound() invoke ptrDeviceFound device[543617681] after
+[INFO]  [NotifyManager]   [2022/05/11 19:48:44] [TID:00000002] [Peek-134] Peek() Peek successfully from the empty queue
+[INFO]  [NotifyManager]   [2022/05/11 19:48:44] [TID:00000002] [Peek-125] Peek() get successfully from the notify queue
+[INFO]  [SocketManager]   [2022/05/11 19:48:45] [TID:0000003a] [SocketManager] TCPMultiplexingTask() Got select sslserverSocket
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:45] [TID:0000003a] [SocketManager] TCPMultiplexingTask() connected ssl client address : 192.168.15.166
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:45] [TID:0000003a] [SocketManager] TCPMultiplexingTask() connected ssl client address : 192.168.15.166
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:0000003a] [EventDispatcher] AddPrimitiveEvent() [Code:2(SOCKET_CODE), What:8, Arg1:1936, Arg2:a60fa8c0, Arg3:51213]
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:00000004] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e45a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:00000004] [EventBase] PeekEvent() get successfully from the event queue[065e45a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:00000004] [eventMain] eventCode [2], what[8]
+[INFO]  [DeviceManager]   [2022/05/11 19:48:45] [TID:00000004] [SFDeviceMgr] HandleEvent() got event code : 2 what : 8
+
+[INFO]  [DeviceManager]   [2022/05/11 19:48:45] [TID:00000004] [SFDeviceMgr] HandleEvent() Accept Device : 1936,a60fa8c0,51213
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] Construct this[066078b8] refCount(0)
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] Created SocketHandler this[066078b8] m_IPv6Mode[0]
+
+[INFO]  [Device]          [2022/05/11 19:48:45] [TID:00000004] [SFDevice] Construct this[066078b8] deviceID[0] refCount(11)
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:00000004] [EventDispatcher] RegisterEventHandler() start eventHandler[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:45] [TID:00000004] [EventDispatcher] RegisterEventHandler() out handled[1]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] GetSSLEnvironment deviceID[0] sslMethodMask[BS2_SSL_METHOD_MASK_TLS1_2]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL deviceID[0] sslMethodMask[16]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke PreferMethod device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke PreferMethod device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL() sslPreferMethod[0x1C]
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL() supportedSslMethodMask[0x10] sslMethodMask[0x10]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [OPENSSL] VERSION: OpenSSL 1.1.1i  8 Dec 2020
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [InitSSL] Set as TLSv1_2_server_method
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL() set sslMethodMask[0x10]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetServerCaFilePath device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetServerCaFilePath device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL() ServerCaFilePath[../../../../../resource/server/ssl_server.crt]
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetServerPrivateKeyFilePath device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetServerPrivateKeyFilePath device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL() ServerPrivateKeyFilePath[../../../../../resource/server/ssl_server.pem]
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetPassword device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetPassword device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetRootCaFilePath device[0] before
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] invoke GetRootCaFilePath device[0] after
+[INFO]  [SocketHandler]   [2022/05/11 19:48:45] [TID:00000004] [SocketHandlerBase] InitSSL() RootCaFilePath[../../../../../resource/server/ssl_server_root.crt]
+[INFO]  [EventDispatcher] [2022/05/11 19:48:46] [TID:00000004] [EventDispatcher] RegisterEventHandler() start eventHandler[066063d0]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:46] [TID:00000004] [EventDispatcher] RegisterEventHandler() out handled[1]
+
+[INFO]  [Device]          [2022/05/11 19:48:46] [TID:00000004] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x9001
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:46] [TID:00000004] [SocketHandlerBase] DispatchPacket packetID(0)
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:46] [TID:00000004] [SocketManager] SendTCP() sendPacket[TCP get system information] device : 0 command : 0x9001 sequence : 22035
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:46] [TID:00000004] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:46] [TID:00000004] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:46] [TID:00000004] Write (Offset:107009616, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:48:46] [TID:00000004] [SocketManager] Out SendTCP() sendPacket[TCP get system information] device : 0 command : 0x9001 sequence : 22035 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:48:47] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] Read (ssl:06757c50, buffer:065fa0b8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] Read (ssl:06757c50, buffer:065fa0b9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] Read (ssl:06757c50, buffer:065fa0ba, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] Read (ssl:06757c50, buffer:065fa0bb, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] Read (ssl:06757c50, buffer:0660112c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:0, lastReceivedPacketTime[1652287727]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [EventDispatcher] AddPrimitiveEvent() [Code:7(CONNECTION_CODE), What:-1, Arg1:0, Arg2:00000000, Arg3:0]
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [EventDispatcher] AddEvent() start eventCode[7] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000010] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e45a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [EventBase] PeekEvent() get successfully from the event queue[065e45a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [eventMain] eventCode [7], what[-1]
+[INFO]  [Device]          [2022/05/11 19:48:47] [TID:00000005] [SFDevice] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000005] [SocketHandlerBase] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000005] [SocketHandlerBase] PeekPacket() Got packet from device[0] command[0x9001] option[256] sequence[22035] payloadSize[0] expectedPayloadSize[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000005] [SocketHandlerBase] ParsePacket() thread id : 5 rawPacket[06cffc2c] id[0] command[0x9001] sequence[22035] index[0] more[0] option[256] param1[0] param2[0].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [EventDispatcher] UnregisterEventHandler() start eventHandler[066063d0]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [EventDispatcher] UnregisterEventHandler() out
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000005] [SocketHandlerBase] HandleETCheckModeAsync deviceID[0] m_isETMode: 0
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [EventDispatcher] RegisterEventHandler() start eventHandler[0660fbe8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000005] [EventDispatcher] RegisterEventHandler() out handled[1]
+
+[INFO]  [Device]          [2022/05/11 19:48:47] [TID:00000005] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x10
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000005] [SocketHandlerBase] DispatchPacket packetID(0)
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000005] [SocketManager] SendTCP() sendPacket[TCP handshake packet] device : 0 command : 0x10 sequence : 22036
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000005] [SocketManager] packetCount/Index: 1/0 packetLen : 116
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000005] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000005] Write (Offset:107021784, Remain:116, onceWritten:116)
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000005] [SocketManager] Out SendTCP() sendPacket[TCP handshake packet] device : 0 command : 0x10 sequence : 22036 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:48:47] [TID:00000011] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] Read (ssl:06757c50, buffer:065fa268, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] Read (ssl:06757c50, buffer:065fa269, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] Read (ssl:06757c50, buffer:065fa26a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] Read (ssl:06757c50, buffer:065fa26b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] Read (ssl:06757c50, buffer:066012ac, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] Read (ssl:06757c50, buffer:0660a6cc, ReadCount:0, bufferSize:80) result:80
+[INFO]  [SocketManager]   [2022/05/11 19:48:47] [TID:00000011] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000011] [SocketHandlerBase] UpdateLastPacketTimestamp Id:0, lastReceivedPacketTime[1652287727]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [EventDispatcher] AddPrimitiveEvent() [Code:7(CONNECTION_CODE), What:-1, Arg1:0, Arg2:00000000, Arg3:0]
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [EventDispatcher] AddEvent() start eventCode[7] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000011] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e45a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventBase] PeekEvent() get successfully from the event queue[065e45a0:socketEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [eventMain] eventCode [7], what[-1]
+[INFO]  [Device]          [2022/05/11 19:48:47] [TID:00000006] [SFDevice] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000006] [SocketHandlerBase] HandleEvent() got event code : 7 what : -1 deviceID[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000006] [SocketHandlerBase] PeekPacket() Got packet from device[0] command[0x10] option[0] sequence[22036] payloadSize[68] expectedPayloadSize[80]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:48:47] [TID:00000006] [SocketHandlerBase] ParsePacket() thread id : 6 rawPacket[06e3f76c] id[0] command[0x10] sequence[22036] index[0] more[0] option[0] param1[543617681] param2[29].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventDispatcher] UnregisterEventHandler() start eventHandler[0660fbe8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventDispatcher] UnregisterEventHandler() out
+
+[INFO]  [DeviceManager]   [2022/05/11 19:48:47] [TID:00000006] [SFDeviceMgr] ConnectDevice delete old device (&device:[066078b8], deviceID[543617681])
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventDispatcher] AddEvent() start eventCode[5] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:00000006] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000000d] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4640:notificationEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000000d] [EventBase] PeekEvent() get successfully from the event queue[065e4640:notificationEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:47] [TID:0000000d] [eventMain] eventCode [5], what[1]
+[INFO]  [DeviceManager]   [2022/05/11 19:48:47] [TID:0000000d] [SFDeviceMgr] HandleEvent() got event code : 5 what : 1
+
+[INFO]  [DeviceManager]   [2022/05/11 19:48:47] [TID:0000000d] [SFDeviceMgr] InvokeDeviceAccepted() invoke ptrDeviceAccepted device[543617681] before
+[INFO]  [NotifyManager]   [2022/05/11 19:48:47] [TID:0000000d] [Post-209] Message post signaled
+[INFO]  [NotifyManager]   [2022/05/11 19:48:47] [TID:0000000d] [Post-212] Message post out handled
+[INFO]  [DeviceManager]   [2022/05/11 19:48:47] [TID:0000000d] [SFDeviceMgr] InvokeDeviceAccepted() invoke ptrDeviceAccepted device[543617681] after
+[INFO]  [NotifyManager]   [2022/05/11 19:48:47] [TID:00000002] [Peek-134] Peek() Peek successfully from the empty queue
+[INFO]  [NotifyManager]   [2022/05/11 19:48:47] [TID:00000002] [Peek-125] Peek() get successfully from the notify queue
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_SearchDevices [OUT] return 1
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_SetDeviceSearchingTimeout [IN]
+
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_SetDeviceSearchingTimeout [OUT] return 1
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_GetDevices [IN]
+
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_GetDevices [OUT] return 1
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_GetDeviceInfo [IN] (543617681)
+[INFO]  [SocketHandler]   [2022/05/11 19:48:49] [TID:00000001] [SocketHandlerBase] GetDeviceInfo() Id:543617681, Type:29, SSLSupport:0, RootCertExist:0
+
+[API]  [API]             [2022/05/11 19:48:49] [TID:00000001] BS2_GetDeviceInfo [OUT] (543617681) return 1
+[INFO]  [EventDispatcher] [2022/05/11 19:48:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:48:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[API]  [API]             [2022/05/11 19:48:52] [TID:00000001] BS2_ReleaseObject [IN]
+
+[API]  [API]             [2022/05/11 19:48:52] [TID:00000001] BS2_ReleaseObject [OUT] return
+[API]  [API]             [2022/05/11 19:48:52] [TID:00000001] BS2_ConnectDevice [IN] (543617681)
+[INFO]  [DeviceManager]   [2022/05/11 19:48:52] [TID:00000001] [SFDeviceMgr] InvokeDeviceConnected() invoke ptrDeviceConnected device[543617681] before
+[INFO]  [NotifyManager]   [2022/05/11 19:48:52] [TID:00000001] [Post-209] Message post signaled
+[INFO]  [NotifyManager]   [2022/05/11 19:48:52] [TID:00000001] [Post-212] Message post out handled
+[INFO]  [NotifyManager]   [2022/05/11 19:48:52] [TID:00000002] [Peek-134] Peek() Peek successfully from the empty queue
+[INFO]  [DeviceManager]   [2022/05/11 19:48:52] [TID:00000001] [SFDeviceMgr] InvokeDeviceConnected() invoke ptrDeviceConnected device[543617681] after
+[INFO]  [NotifyManager]   [2022/05/11 19:48:52] [TID:00000002] [Peek-125] Peek() get successfully from the notify queue
+[API]  [API]             [2022/05/11 19:48:52] [TID:00000001] BS2_ConnectDevice [OUT] (543617681) return 1
+[API]  [API]             [2022/05/11 19:48:52] [TID:00000001] BS2_GetDeviceInfoEx [IN] (543617681)
+[INFO]  [SocketHandler]   [2022/05/11 19:48:52] [TID:00000001] [SocketHandlerBase] GetDeviceInfo() Id:543617681, Type:29, SSLSupport:0, RootCertExist:0
+
+[API]  [API]             [2022/05/11 19:48:52] [TID:00000001] BS2_GetDeviceInfoEx [OUT] (543617681) return 1
+[INFO]  [EventDispatcher] [2022/05/11 19:49:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:49:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:11] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:49:17] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:17] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:17] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:17] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:17] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:17] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:17] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] Read (ssl:06757c50, buffer:065fa188, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] Read (ssl:06757c50, buffer:065fa189, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] Read (ssl:06757c50, buffer:065fa18a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] Read (ssl:06757c50, buffer:065fa18b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] Read (ssl:06757c50, buffer:0660118c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:17] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287757]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:49:17] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] Write (Offset:107727400, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:49:17] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:49:17] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:21] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:21] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:21] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:21] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:21] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:21] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:49:31] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:31] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:31] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:31] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:31] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:31] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:49:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[API]  [API]             [2022/05/11 19:49:45] [TID:00000001] BS2_GetFingerprintConfig [IN] (543617681)
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] TransactPacket() parent : 0x0 sendPacket.command : 0x101
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x101
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(543617681)
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] SendTCP() sendPacket[TCP get config packet] device : 543617681 command : 0x101 sequence : 22037
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] Write (Offset:107727400, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] Out SendTCP() sendPacket[TCP get config packet] device : 543617681 command : 0x101 sequence : 22037 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:45] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] Read (ssl:06757c50, buffer:065fa188, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] Read (ssl:06757c50, buffer:065fa189, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] Read (ssl:06757c50, buffer:065fa18a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] Read (ssl:06757c50, buffer:065fa18b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] Read (ssl:06757c50, buffer:066012dc, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] Read (ssl:06757c50, buffer:066014c4, ReadCount:0, bufferSize:64) result:64
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287785]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000010] [EventDispatcher] AddEvent() start eventCode[3] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000010] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000010] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000011] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000011] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000011] [eventMain] eventCode [3], what[-1]
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000011] [SFDevice] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000011] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000011] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x101] option[0] sequence[22037] payloadSize[60] expectedPayloadSize[64]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000011] [SocketHandlerBase] ParsePacket() thread id : 17 rawPacket[07c1f74c] id[543617681] command[0x101] sequence[22037] index[0] more[0] option[0] param1[0] param2[0].
+
+[API]  [API]             [2022/05/11 19:49:45] [TID:00000001] BS2_GetFingerprintConfig [OUT] (543617681) return 1
+[API]  [API]             [2022/05/11 19:49:45] [TID:00000001] BS2_ScanFingerprintEx [IN] (543617681)
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] TransactPacket() parent : 0x0 sendPacket.command : 0x101
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x101
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(543617681)
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] SendTCP() sendPacket[TCP get config packet] device : 543617681 command : 0x101 sequence : 22038
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] Write (Offset:107727400, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] Out SendTCP() sendPacket[TCP get config packet] device : 543617681 command : 0x101 sequence : 22038 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000012] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000012] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000012] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:45] [TID:00000012] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] Read (ssl:06757c50, buffer:065fa1e8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] Read (ssl:06757c50, buffer:065fa1e9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] Read (ssl:06757c50, buffer:065fa1ea, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] Read (ssl:06757c50, buffer:065fa1eb, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] Read (ssl:06757c50, buffer:0660118c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] Read (ssl:06757c50, buffer:066014c4, ReadCount:0, bufferSize:64) result:64
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000012] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000012] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287785]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000012] [EventDispatcher] AddEvent() start eventCode[3] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000012] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000012] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000013] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000013] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:45] [TID:00000013] [eventMain] eventCode [3], what[-1]
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000013] [SFDevice] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000013] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000013] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x101] option[0] sequence[22038] payloadSize[60] expectedPayloadSize[64]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000013] [SocketHandlerBase] ParsePacket() thread id : 19 rawPacket[07e9f89c] id[543617681] command[0x101] sequence[22038] index[0] more[0] option[0] param1[0] param2[0].
+
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] TransactPacket() parent : 0x0 sendPacket.command : 0x190
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x190
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:45] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(543617681)
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] SendTCP() sendPacket[TCP scan fingerprint packet] device : 543617681 command : 0x190 sequence : 22039
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] Write (Offset:107727400, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:49:45] [TID:00000001] [SocketManager] Out SendTCP() sendPacket[TCP scan fingerprint packet] device : 543617681 command : 0x190 sequence : 22039 result : 1
+
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] invoke ptrReadyToScan device[543617681], templateIndex[0] before
+[INFO]  [Device]          [2022/05/11 19:49:45] [TID:00000001] [SFDevice] invoke ptrReadyToScan device[543617681], templateIndex[0] after
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000014] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000014] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000014] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:49] [TID:00000014] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] Read (ssl:06757c50, buffer:065fa1e8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] Read (ssl:06757c50, buffer:065fa1e9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] Read (ssl:06757c50, buffer:065fa1ea, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] Read (ssl:06757c50, buffer:065fa1eb, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] Read (ssl:06757c50, buffer:066011ec, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] Read (ssl:06757c50, buffer:0660f9d4, ReadCount:0, bufferSize:384) result:384
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000014] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000014] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287789]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000014] [EventDispatcher] AddEvent() start eventCode[3] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000014] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000014] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000015] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000015] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000015] [eventMain] eventCode [3], what[-1]
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000015] [SFDevice] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000015] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000015] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x190] option[0] sequence[22039] payloadSize[384] expectedPayloadSize[384]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000015] [SocketHandlerBase] ParsePacket() thread id : 21 rawPacket[0813f47c] id[543617681] command[0x190] sequence[22039] index[0] more[0] option[0] param1[100] param2[0].
+
+[API]  [API]             [2022/05/11 19:49:49] [TID:00000001] BS2_ScanFingerprintEx [OUT] (543617681) return 1
+[API]  [API]             [2022/05/11 19:49:49] [TID:00000001] BS2_ScanFingerprintEx [IN] (543617681)
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000001] [SFDevice] TransactPacket() parent : 0x0 sendPacket.command : 0x101
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000001] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x101
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(543617681)
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [SocketManager] SendTCP() sendPacket[TCP get config packet] device : 543617681 command : 0x101 sequence : 22040
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] Write (Offset:107727400, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [SocketManager] Out SendTCP() sendPacket[TCP get config packet] device : 543617681 command : 0x101 sequence : 22040 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000016] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000016] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000016] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:49] [TID:00000016] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] Read (ssl:06757c50, buffer:065fa1a8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] Read (ssl:06757c50, buffer:065fa1a9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] Read (ssl:06757c50, buffer:065fa1aa, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] Read (ssl:06757c50, buffer:065fa1ab, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] Read (ssl:06757c50, buffer:0660133c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] Read (ssl:06757c50, buffer:066014c4, ReadCount:0, bufferSize:64) result:64
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000016] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000016] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287789]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000016] [EventDispatcher] AddEvent() start eventCode[3] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000016] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000016] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000017] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000017] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:49] [TID:00000017] [eventMain] eventCode [3], what[-1]
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000017] [SFDevice] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000017] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000017] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x101] option[0] sequence[22040] payloadSize[60] expectedPayloadSize[64]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000017] [SocketHandlerBase] ParsePacket() thread id : 23 rawPacket[083bf52c] id[543617681] command[0x101] sequence[22040] index[0] more[0] option[0] param1[0] param2[0].
+
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000001] [SFDevice] TransactPacket() parent : 0x0 sendPacket.command : 0x190
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000001] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x190
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:49] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(543617681)
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [SocketManager] SendTCP() sendPacket[TCP scan fingerprint packet] device : 543617681 command : 0x190 sequence : 22041
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] Write (Offset:107727400, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:49:49] [TID:00000001] [SocketManager] Out SendTCP() sendPacket[TCP scan fingerprint packet] device : 543617681 command : 0x190 sequence : 22041 result : 1
+
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000001] [SFDevice] invoke ptrReadyToScan device[543617681], templateIndex[1] before
+[INFO]  [Device]          [2022/05/11 19:49:49] [TID:00000001] [SFDevice] invoke ptrReadyToScan device[543617681], templateIndex[1] after
+[INFO]  [EventDispatcher] [2022/05/11 19:49:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000018] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000018] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000018] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:54] [TID:00000018] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] Read (ssl:06757c50, buffer:065fa118, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] Read (ssl:06757c50, buffer:065fa119, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] Read (ssl:06757c50, buffer:065fa11a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] Read (ssl:06757c50, buffer:065fa11b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] Read (ssl:06757c50, buffer:0660133c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] Read (ssl:06757c50, buffer:0660f9d4, ReadCount:0, bufferSize:384) result:384
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000018] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:00000018] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287794]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000018] [EventDispatcher] AddEvent() start eventCode[3] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000018] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000018] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000019] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000019] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:00000019] [eventMain] eventCode [3], what[-1]
+[INFO]  [Device]          [2022/05/11 19:49:54] [TID:00000019] [SFDevice] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:00000019] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:00000019] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x190] option[0] sequence[22041] payloadSize[384] expectedPayloadSize[384]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:00000019] [SocketHandlerBase] ParsePacket() thread id : 25 rawPacket[0863f98c] id[543617681] command[0x190] sequence[22041] index[0] more[0] option[0] param1[100] param2[0].
+
+[API]  [API]             [2022/05/11 19:49:54] [TID:00000001] BS2_ScanFingerprintEx [OUT] (543617681) return 1
+[API]  [API]             [2022/05/11 19:49:54] [TID:00000001] BS2_VerifyFingerprint [IN] (543617681)
+[INFO]  [Device]          [2022/05/11 19:49:54] [TID:00000001] [SFDevice] TransactPacket() parent : 0x0 sendPacket.command : 0x191
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:00000001] [SocketHandlerBase] TransactPacket()
+
+[INFO]  [Device]          [2022/05/11 19:49:54] [TID:00000001] [SFDevice] DispatchPacket() parent : 0x0 sendPacket.command : 0x191
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:00000001] [SocketHandlerBase] DispatchPacket packetID(543617681)
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000001] [SocketManager] SendTCP() sendPacket[TCP verify fingerprint packet] device : 543617681 command : 0x191 sequence : 22042
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000001] [SocketManager] packetCount/Index: 1/0 packetLen : 804
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000001] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000001] Write (Offset:107743792, Remain:804, onceWritten:804)
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:00000001] [SocketManager] Out SendTCP() sendPacket[TCP verify fingerprint packet] device : 543617681 command : 0x191 sequence : 22042 result : 1
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001a] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001a] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001a] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:49:54] [TID:0000001a] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] Read (ssl:06757c50, buffer:065fa268, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] Read (ssl:06757c50, buffer:065fa269, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] Read (ssl:06757c50, buffer:065fa26a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] Read (ssl:06757c50, buffer:065fa26b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] Read (ssl:06757c50, buffer:0660133c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:49:54] [TID:0000001a] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:0000001a] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287794]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001a] [EventDispatcher] AddEvent() start eventCode[3] receiver[066078b8]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001b] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001b] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:49:54] [TID:0000001b] [eventMain] eventCode [3], what[-1]
+[INFO]  [Device]          [2022/05/11 19:49:54] [TID:0000001b] [SFDevice] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:0000001b] [SocketHandlerBase] HandleEvent() got event code : 3 what : -1 deviceID[543617681]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:0000001b] [SocketHandlerBase] PeekPacket() Got packet from device[543617681] command[0x191] option[0] sequence[22042] payloadSize[0] expectedPayloadSize[0]
+
+[INFO]  [SocketHandler]   [2022/05/11 19:49:54] [TID:0000001b] [SocketHandlerBase] ParsePacket() thread id : 27 rawPacket[088bfa0c] id[543617681] command[0x191] sequence[22042] index[0] more[0] option[0] param1[0] param2[0].
+
+[API]  [API]             [2022/05/11 19:49:54] [TID:00000001] BS2_VerifyFingerprint [OUT] (543617681) return 1
+[INFO]  [EventDispatcher] [2022/05/11 19:50:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:50:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:11] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:50:21] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:21] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:21] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:21] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:21] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:21] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:50:24] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:24] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:24] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:24] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:24] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:24] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:50:24] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa1a8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa1a9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa1aa, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa1ab, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] Read (ssl:06757c50, buffer:066012dc, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:50:24] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287824]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:50:24] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] Write (Offset:107743792, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:50:24] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:50:24] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:31] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:31] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:31] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:31] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:31] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:31] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:50:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:50:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:50:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:54] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:54] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:50:54] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:50:54] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1a8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1a9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1aa, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1ab, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:50:54] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287854]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:50:54] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] Write (Offset:107743792, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:50:54] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:50:54] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:51:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:11] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:51:21] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:21] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:21] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:21] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:21] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:21] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:51:24] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:24] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:24] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:24] [TID:00000011] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:24] [TID:00000011] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:24] [TID:00000011] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:51:24] [TID:00000011] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa168, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa169, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa16a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa16b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:51:24] [TID:00000011] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287884]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:51:24] [TID:00000011] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] Write (Offset:107745848, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:51:24] [TID:00000011] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:51:24] [TID:00000011] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:31] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:31] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:31] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:31] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:31] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:31] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:51:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:51:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:51:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:54] [TID:00000012] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:54] [TID:00000012] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:51:54] [TID:00000012] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:51:54] [TID:00000012] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] Read (ssl:06757c50, buffer:065fa148, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] Read (ssl:06757c50, buffer:065fa149, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] Read (ssl:06757c50, buffer:065fa14a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] Read (ssl:06757c50, buffer:065fa14b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:51:54] [TID:00000012] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287914]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:51:54] [TID:00000012] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] Write (Offset:107746880, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:51:54] [TID:00000012] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:51:54] [TID:00000012] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:52:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:11] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:52:21] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:21] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:21] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:21] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:21] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:21] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:52:24] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:24] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:24] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:24] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:24] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:24] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:52:24] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa0f8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa0f9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa0fa, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] Read (ssl:06757c50, buffer:065fa0fb, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:52:24] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287944]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:52:24] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] Write (Offset:107746880, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:52:24] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:52:24] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:31] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:31] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:31] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:31] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:31] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:31] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:52:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:52:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:52:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:54] [TID:00000011] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:54] [TID:00000011] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:52:54] [TID:00000011] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:52:54] [TID:00000011] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] Read (ssl:06757c50, buffer:065fa1a8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] Read (ssl:06757c50, buffer:065fa1a9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] Read (ssl:06757c50, buffer:065fa1aa, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] Read (ssl:06757c50, buffer:065fa1ab, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] Read (ssl:06757c50, buffer:066012dc, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:52:54] [TID:00000011] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652287974]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:52:54] [TID:00000011] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] Write (Offset:107746880, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:52:54] [TID:00000011] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:52:54] [TID:00000011] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:53:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:11] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:53:21] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:21] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:21] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:21] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:21] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:21] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:53:24] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:24] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:24] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:24] [TID:00000012] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:24] [TID:00000012] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:24] [TID:00000012] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:53:24] [TID:00000012] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] Read (ssl:06757c50, buffer:065fa1e8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] Read (ssl:06757c50, buffer:065fa1e9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] Read (ssl:06757c50, buffer:065fa1ea, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] Read (ssl:06757c50, buffer:065fa1eb, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:53:24] [TID:00000012] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652288004]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:53:24] [TID:00000012] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] Write (Offset:107746880, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:53:24] [TID:00000012] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:53:24] [TID:00000012] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:31] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:31] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:31] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:31] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:31] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:31] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:53:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:53:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:53:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:54] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:54] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:53:54] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:53:54] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1e8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1e9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1ea, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa1eb, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:53:54] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652288034]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:53:54] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] Write (Offset:107748936, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:53:54] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:53:54] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:54:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:11] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:54:21] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:21] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:21] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:21] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:21] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:21] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:54:24] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:24] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:24] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:24] [TID:00000011] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:24] [TID:00000011] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:24] [TID:00000011] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:54:24] [TID:00000011] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa1a8, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa1a9, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa1aa, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] Read (ssl:06757c50, buffer:065fa1ab, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:54:24] [TID:00000011] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652288064]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:54:24] [TID:00000011] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] Write (Offset:107748936, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:54:24] [TID:00000011] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:54:24] [TID:00000011] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:31] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:31] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:31] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:31] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:31] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:31] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:54:41] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:41] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:41] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:41] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:41] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:41] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:54:51] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:51] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:51] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:51] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:51] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:51] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:54:54] [TID:0000003a] [EventDispatcher] AddEvent() start eventCode[2] receiver[065e0448]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:54] [TID:0000003a] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:54] [TID:0000003a] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:54] [TID:00000010] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:54] [TID:00000010] [EventBase] PeekEvent() get successfully from the event queue[065e4678:packetEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:54:54] [TID:00000010] [eventMain] eventCode [2], what[3]
+[INFO]  [DeviceManager]   [2022/05/11 19:54:54] [TID:00000010] [SFDeviceMgr] HandleEvent() got event code : 2 what : 3
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [SocketManager] HandleSelectedEvent() socket[1936]
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa218, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa219, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa21a, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] Read (ssl:06757c50, buffer:065fa21b, ReadCount:0, bufferSize:1) result:1
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [ReadImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] Read (ssl:06757c50, buffer:0660124c, ReadCount:0, bufferSize:32) result:32
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] KeepAlive ReadImpl Socket:1936, SockBase:1936, id:543617681, seq:0 
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [ProcessReceivePacket-1783] Return : 1
+[INFO]  [SocketHandler]   [2022/05/11 19:54:54] [TID:00000010] [SocketHandlerBase] UpdateLastPacketTimestamp Id:543617681, lastReceivedPacketTime[1652288094]
+
+[INFO]  [KeepAlive]       [2022/05/11 19:54:54] [TID:00000010] [Server] received a keep-alive packet from device[543617681].
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [SocketManager] SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [SocketManager] packetCount/Index: 1/0 packetLen : 36
+
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [WriteImplSsl] SocketHandlerBase:066078b8, SSLLock:06607c3c
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] Write (Offset:107748936, Remain:36, onceWritten:36)
+[INFO]  [SocketManager]   [2022/05/11 19:54:54] [TID:00000010] [SocketManager] Out SendTCP() sendPacket[TCP keep alive packet] device : 543617681 command : 0x11 sequence : 0 result : 1
+
+[INFO]  [KeepAlive]       [2022/05/11 19:54:54] [TID:00000010] [Server] sent a keep-alive packet to device[543617681].
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:01] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:01] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:01] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:01] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:01] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:01] [TID:00000003] [eventMain] eventCode [1], what[-1]
+[INFO]  [EventDispatcher] [2022/05/11 19:55:11] [TID:00000038] [EventDispatcher] AddEvent() start eventCode[1] receiver[065e9668]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:11] [TID:00000038] [EventDispatcher] AddEvent() signaled
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:11] [TID:00000038] [EventDispatcher] AddEvent() out handled[1]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:11] [TID:00000003] [EventBase] PeekEvent() wake successfully from the empty queue eventList[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:11] [TID:00000003] [EventBase] PeekEvent() get successfully from the event queue[065e4550:timerEventList]
+
+[INFO]  [EventDispatcher] [2022/05/11 19:55:11] [TID:00000003] [eventMain] eventCode [1], what[-1]

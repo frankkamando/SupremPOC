@@ -1,0 +1,2 @@
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\DoorControl\obj\x86\Debug\DoorControl.csprojAssemblyReference.cache
+C:\Softnet Project\BSDemoPOC\cli\csharp\windows\BSDemo\DoorControl\obj\x86\Debug\DoorControl.csproj.CoreCompileInputs.cache

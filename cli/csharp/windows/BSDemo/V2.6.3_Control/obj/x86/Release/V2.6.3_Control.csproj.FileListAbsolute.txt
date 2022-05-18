@@ -1,0 +1,8 @@
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\bin\Release\V2.6.3_Control.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\bin\Release\V2.6.3_Control.pdb
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\bin\Release\System.Data.SQLite.dll
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Release\V2.6.3_Control.csprojAssemblyReference.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Release\V2.6.3_Control.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Release\V2.6.3_Control.csproj.CopyComplete
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Release\V2.6.3_Control.exe
+C:\Program Files (x86)\BioStar 2 Device SDK\Example\cli\csharp\windows\BSDemo\V2.6.3_Control\obj\x86\Release\V2.6.3_Control.pdb
